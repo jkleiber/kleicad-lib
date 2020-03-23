@@ -1,4 +1,4 @@
-(module USB_MicroB_Amphenol10118192 (layer F.Cu) (tedit 5E766121)
+(module USB_MicroB_Amphenol10118192 (layer F.Cu) (tedit 5E78245D)
   (fp_text reference REF** (at 0.77 0.36) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -33,4 +33,9 @@
   (pad 6 smd rect (at -3.65 5.14) (size 1.8 1.9) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at 1.34 5.14) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at -1.07 5.14) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
+  (model /home/justin/kleicad-lib/kleicad-lib.3dshapes/Amphenol-10118192C.step
+    (offset (xyz -97.875 -2 -0.375))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
